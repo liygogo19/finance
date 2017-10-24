@@ -1,0 +1,252 @@
+/*position*/
+.position-relative{
+    position: relative!important;
+}
+
+.position-absolute{
+    position: absolute!important;
+}
+
+.position-fixed{
+    position: fixed!important;
+}
+
+.top-0{
+    top:0;
+}
+
+.bottom-0{
+    bottom:0;
+}
+
+.left-0{
+    left:0;
+}
+
+.right-0{
+    right:0;
+}
+
+.bottom-20{
+    bottom:20px;
+}
+
+/*margin*/
+.margin-auto{
+    margin:0 auto!important;
+}
+
+.margin-clear{
+    margin:0!important;
+}
+
+.margin-top-large{
+    margin-top: 5.6em!important;
+}
+
+.margin-top-middle{
+    margin-top: 2em!important;
+}
+
+.margin-top-small{
+    margin-top: 1em!important;
+}
+
+/*padding*/
+.padding-clear{
+    padding:0!important;
+}
+
+.padding-top-small{
+    padding-top: .6em!important;
+}
+
+/*width*/
+.width-1-1{
+    width:100%!important;
+}
+
+/*text*/
+.text-center{
+    text-align: center!important;
+}
+
+/*font size*/
+.font-size-20{
+    font-size: 20px!important;
+}
+
+.font-size-18{
+    font-size: 18px!important;
+}
+
+.font-size-14{
+    font-size: 14px!important;
+}
+
+/*font style*/
+.font-style-success{
+    color: rgb(0,162,153);
+}
+
+.font-style-info{
+    color: rgb(153,153,153);
+}
+
+.font-style-fail{
+    color: rgb(102,102,102);
+}
+
+.font-style-white{
+    color: rgb(255,255,255);
+}
+
+/*img*/
+.bg-invite{
+    background-image: url("../img/invite/bg_Invitation@3x.png");
+}
+
+.bg-invite{
+    background-image: url("../img/invite/bg_Invitation@3x.png");
+}
+
+.icon-salesman{
+    background-image: url("../img/invite/Invitation_salesman.svg");
+    width:13em;
+    height:3em;
+}
+
+.icon-code{
+    background-image: url("../img/invite/code.png");
+    width:12em;
+    height:12em;
+}
+
+.invite-code{
+    width:15rem;
+    height:15rem;
+}
+
+.icon-store{
+    background-image: url("../img/order/store.svg");
+}
+
+.icon-location{
+    background-image: url("../img/order/Location.svg");
+}
+
+.icon-telphone{
+    background-image: url("../img/order/telephone.svg");
+}
+
+.icon-order{
+    background-image: url("../img/order/order.svg");
+}
+
+.icon-money{
+    background-image: url("../img/order/money.svg");
+}
+
+.icon-add-button{
+    background-image: url("../img/order/add-button.svg");
+}
+
+/*navbar img*/
+.b-part-page .navbar-img{
+    width:100%;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.b-part-page .navbar-img span{
+    height:60px;
+    line-height: 60px;
+}
+
+.b-part-page .navbar-img span.info{
+    margin-left: 10px;
+}
+
+
+.b-part-page .navbar-fixed .navbar,.b-part-page .navbar-through .navbar{
+    box-shadow: none!important;
+}
+
+.b-part-page .page-content{
+    background-color: #f2f2f2;
+}
+
+.b-part-page .content-block-title,
+.b-part-page .list-block{
+    background-color: #fff;
+}
+
+/*performance*/
+.invite .b-part-page.order-performance .navbar-size{
+    height: 2em;
+}
+
+.b-part-page.order-performance .navbar-size{
+    height: 3.1em;
+}
+
+.b-part-page.order-performance .performance-toggle{
+    display: flex;
+    flex-basis: 16rem;
+    height:35px;
+}
+
+.b-part-page.order-performance .performance-toggle a{
+    background-color: rgb(255,255,255);
+    color: rgb(0,162,153);
+}
+
+.b-part-page.order-performance .performance-toggle a.active{
+    background-color: rgb(0,162,153);
+    color: rgb(255,255,255);
+}
+
+.b-part-page.order-performance .title{
+    height:38px;
+    line-height: 38px;
+    border-bottom:.1em solid rgb(216,216,216);
+    padding: 0 16px;
+}
+
+.b-part-page.order-performance .title span i{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background: url("../img/order/calendar.svg") no-repeat center center;
+}
+
+.b-part-page.order-performance .number,
+.invite .number{
+    height:70px;
+    margin: 0 16px 6px 16px;
+    border-top:1px solid #ccc;
+}
+
+.b-part-page.order-performance .number div,
+.invite .number div{
+    width:calc(50% - .05em);
+    height:58px;
+    border-right: .1em solid rgb(216,216,216);
+    box-sizing: border-box;
+}
+
+.b-part-page.order-performance .number div:last-child,
+.invite .number div:last-child{
+    border-right: none;
+}
+
+.b-part-page.order-performance .myStore .card-content-inner,
+.invite .myStore .card-content-inner{
+    padding: 0!important;
+}
+
+.b-part-page.order-performance .myStore .number,
+.invite .myStore .number{
+    margin:.7em 0 0!important;
+}

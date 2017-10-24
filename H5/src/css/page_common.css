@@ -1,0 +1,16 @@
+#forget-page .page-content,#profile .page-content, .b-part-page .page-content, #account-index .page-content{
+    background-color: #f2f2f2;
+}
+
+
+#add_order_btn, #nickename_save_btn{
+    height: 56px!important;
+    flex: 0 0 56px!important;
+    justify-content: center;
+}
+
+.page-no-scroll .page-content{
+    overflow: hidden;
+}
+
+input[disabled]{color:#ccc;opacity:1}

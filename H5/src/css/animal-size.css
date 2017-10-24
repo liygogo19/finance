@@ -1,0 +1,42 @@
+@media (max-width:374px) {
+    .ab-bot-2{
+        position: relative;
+        top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .profile-top{
+        height: 10rem!important;
+    }
+
+    #calendar-inline-page .picker-calendar.picker-modal-inline{
+        height: 320px;
+    }
+}
+
+@media (min-width:375px) and (max-width:480px){
+
+}
+
+@media (min-width:480px) and (max-width:768px){
+    .ab-bot-2{
+        position: relative;
+        top: 5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width:767px) and (max-width:1025px){
+    .ab-bot-2{
+        position: relative;
+        top: 5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media all and (orientation : landscape) {
+    .pos-tele{
+        position: relative!important;
+        margin-top: 4rem;
+    }
+}

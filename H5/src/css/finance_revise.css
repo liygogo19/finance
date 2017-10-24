@@ -1,0 +1,316 @@
+/*navbar layout*/
+.navbar, .subnavbar, .toolbar{
+    background-color: #00a299;
+}
+
+.navbar .center, .subnavbar .center{
+    padding-right: 56px;
+    text-align: center;
+    flex: 1;
+    font-size: 1.125rem;
+}
+
+.login-bg .navbar .center{
+    padding-right: 0!important;
+}
+
+.list-block.inputs-list .item-inner{
+    margin-bottom: 0;
+}
+
+.form-group__message{
+    color: #e7372d;
+    font-size: 0.75rem
+}
+
+
+/*form error style*/
+.form-list-error .item-title{
+    color: #e7372d!important;
+    display: flex;
+    align-items: center;
+}
+
+.form-list-error .item-title:after{
+    content: '';
+    display: inline-block;
+    width: 0.8rem;
+    height:0.8rem;
+    background-image: url("../img/order/alert.svg");
+    background-position: center;
+    background-size: 0.8rem;
+    margin-left: 0.2rem;
+    background-repeat: no-repeat;
+}
+
+
+.form-group--error .item-input-field.not-empty-state:after,
+.form-group--error .input-field.not-empty-state:after{
+    background-color: rgba(231,55,45,0.8) !important;
+    -webkit-transform: scaleY(0.5)!important;
+    transform: scaleY(0.5)!important;
+}
+
+.form-group--error .item-input-field.focus-state:after,
+.form-group--error .input-field.focus-state:after,
+.form-group--error .focus-state .item-input-field:after,
+.form-group--error .focus-state .input-field:after{
+    background: #e7372d!important;
+    transform: scaleY(2)!important;
+}
+
+.form-group--error .input-field:after,.form-group--error .item-input-field:after{
+    background-color: rgba(231,55,45,0.8) !important;
+}
+
+.item-input-field.not-empty-state:after,
+.input-field.not-empty-state:after{
+    background-color: rgba(0,0,0,.12) !important;
+    -webkit-transform: scaleY(0.5)!important;
+    transform: scaleY(0.5)!important;
+}
+
+.item-input-field.focus-state:after,
+.input-field.focus-state:after,
+.focus-state .item-input-field:after,
+.focus-state .input-field:after{
+    background: #00a299!important;
+    transform: scaleY(2)!important;
+}
+
+
+.navbar-fixed .navbar, .navbar-through .navbar{
+    box-shadow: none;
+}
+
+
+/*list*/
+.list-block{
+    margin: 16px 0;
+}
+
+.list-block .item-inner{
+    padding-right: 0px;
+    padding-top: 10px;
+}
+
+.list-block .item-content{
+    padding-right: 16px;
+}
+
+.list-block .item-input{
+    width: auto;
+    flex: 1;
+}
+
+.list-block .item-after{
+    color: #999;
+}
+
+.list-block .item-media+.item-inner{
+    margin-left: 0;
+}
+
+.list-block .item-media{
+    min-width: 1.8rem;
+}
+
+.item-media img{
+    max-width: 1rem;
+}
+
+.list-block .item-link .item-inner{
+    background-position: right center;
+}
+
+/*.list-block .item-link .item-content{*/
+    /*padding-right: 0;*/
+/*}*/
+
+/*button*/
+.button{
+    background-color: #00a299;
+    color: #ffffff;
+}
+
+/*content-block*/
+.content-block{
+    margin: 16px 0;
+}
+
+/*datepicker*/
+.picker-modal .picker-header,.picker-calendar-day.picker-calendar-day-selected span{
+    background-color: #00a299;
+}
+
+.picker-calendar-day.picker-calendar-day-today span{
+    color: #00a299;
+}
+
+.picker-calendar-day.picker-calendar-day-selected span{
+    color: #fff;
+}
+
+/*inputStyle*/
+.list-block input[type=time], .list-block input[type=number], .list-block input[type=text], .list-block input[type=password], .list-block input[type=search], .list-block input[type=email], .list-block input[type=tel], .list-block input[type=url], .list-block input[type=date], .list-block input[type=datetime-local], .list-block select, .list-block textarea{
+    font-size: 1rem;
+    color: #333;
+}
+
+/*tele-Modal*/
+.modal-button, .modal-buttons .button{
+    color: #00a299;
+}
+
+/*content-block-title*/
+.content-block-title
+{
+    margin: 0;
+    padding: 16px;
+}
+
+.content-block-title.title-with-icon{
+    padding: 16px 16px 16px 48px;
+    color: #00a299;
+    background-position: 1rem center!important;
+}
+
+/*card-header-color*/
+.card-header:after{
+    background-color: #D8D8D8;
+}
+
+/*timeLine*/
+.timeline{
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item{
+    align-items: center;
+    font-size: 0.875rem;
+}
+
+.timeline-item-date{
+    width: 4.4rem;
+    color: #999;
+}
+
+.timeline-item-divider{
+    width: 12px;
+    height: 12px;
+    margin-top: 0;
+}
+
+.timeline-item-content{
+    color: #666;
+}
+
+.timeline-item.active .timeline-item-content{
+    color: #00a299;
+}
+
+.timeline-item.active .timeline-item-divider{
+    background-color: #00a299;
+    -webkit-box-shadow:0 0 0 2px #aee2df;
+    -moz-box-shadow:0 0 0 2px #aee2df;
+    box-shadow:0 0 0 2px #aee2df;
+}
+
+.timeline-item.active .timeline-item-divider:after, .timeline-item-divider:before{
+    background-color: #bbb;
+}
+
+/*accordion-height*/
+.accordion-item-content{
+    height: 9rem;
+}
+
+.invite .accordion-item-content{
+    height: 8rem;
+}
+
+.accordion-col-height-3-2>div>div{
+    font-size: 1rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+
+/*item-title*/
+.item-16 .item-inner{
+    font-size: 1rem!important;
+}
+
+/*popover*/
+.popover{
+    width: 120px;
+    max-height: 240px;
+    overflow: scroll;
+}
+
+.popover .item-inner{
+    display: flex;
+    justify-content: center;
+    color: #666666;
+}
+
+/*button*/
+.button.button-big{
+    border-radius: 5px;
+}
+
+.list-block .item-link .item-inner, .list-block .list-button .item-inner{
+    padding-right: 20px;
+}
+
+.list-block li {
+    list-style: none!important;
+}
+
+/*spinner*/
+.spinner-color-3 .preloader-inner .preloader-inner-gap{
+    border-color: #00a299;
+}
+
+.spinner-color-3 .preloader-inner .preloader-inner-half-circle{
+    border-color: #00a299;
+}
+
+.align-center {
+    text-align: center;
+}
+
+/*row*/
+.row .col-25{
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow:ellipsis;
+    -webkit-text-overflow:ellipsis;
+    -moz-text-overflow:ellipsis;
+}
+
+/*line chart*/
+#line-chart{
+    width: 100%!important;
+    /*max-width: 400px!important;*/
+    /*height: auto!important;*/
+    /*max-height: 300px!important;*/
+}
+
+/*notification*/
+.notifications.list-block{
+    margin: 0;
+}
+
+.notifications.list-block .item-inner{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*picker*/
+.picker-items-col.picker-items-col-absolute{
+    min-width: 100%;
+    text-align: center;
+}
+

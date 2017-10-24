@@ -1,0 +1,25 @@
+.district_dropdown_zone{
+    width: 100%;
+    height: calc(100% - 5.625rem - 1px);
+    display: block;
+    position: absolute;
+    z-index: 600;
+}
+
+.district_dropdown_zone>div:nth-child(1){
+    overflow: scroll;
+    position: absolute;
+    /*max-height: 500px;*/
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 3;
+    top: 0;
+}
+
+.district_dropdown_zone .dark_bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+}

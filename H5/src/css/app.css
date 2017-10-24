@@ -1,0 +1,32 @@
+/* =========
+Your custom styles go here
+ ========= */
+html, body {
+    font-size: 1em;
+    font-family: "PingFangSC-Regular";
+    color: #333;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+
+@import url("searchbar.css");
+@import url("dropDown.css");
+@import url("dropDownList.css");
+@import url("checkbox.css");
+@import url("finance_revise.css");
+@import url("new_style.css");
+/*order style*/
+@import url("order.css");
+
+
+@import url("page_common.css");
+@import url("signUp.css");
+@import url("basic_common.css");
+@import url("animal-size.css");
+@import url("bg-img.css");
+
+/*validation pop-up*/
+@import url("validate.css");

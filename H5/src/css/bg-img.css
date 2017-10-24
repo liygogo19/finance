@@ -1,0 +1,137 @@
+.female-avator{
+    background-image: url("../img/profile/headwoman_70@3x.png")!important;
+}
+
+.male-avator{
+    background-image: url("../img/profile/Headman_70@3x.png");
+}
+
+.house-info-icon{
+    background-image: url("../img/order/house.svg");
+}
+
+.title-icon{
+    width: 1rem;
+    height: 1.25rem;
+    background-image: url("../img/profile/manager.svg");
+}
+.profile-top{
+    background-size: cover!important;
+}
+/*icon*/
+.icon-user{
+    background-image: url("../img/order/information.svg");
+}
+
+.icon-work{
+    background-image: url("../img/order/work.svg");
+}
+
+.icon-marry{
+    background-image: url("../img/order/marry.svg");
+}
+
+.icon-house{
+    background-image: url("../img/order/house.svg");
+}
+
+.b-part-page .bg-addorder{
+    background-image: url("../img/bg/bg_addorder@1x.png");
+}
+
+
+.req-has-read{
+    background-image: url("../img/login/agree.svg");
+}
+
+.username-dark{
+    background-image: url("../img/login/user_n.svg");
+}
+
+.sex-dark{
+    background-image: url("../img/login/sex.svg");
+}
+
+.with-icon.username-dark.focus-state{
+    background-image: url("../img/login/user_s.svg");
+}
+
+.telephone{
+    background-image: url("../img/login/tel_n.svg");
+}
+
+.captcha-code{
+    background-image: url("../img/login/photo.svg");
+}
+
+.with-icon.captcha-code.focus-state{
+    background-image: url("../img/login/photo_s.svg");
+}
+
+.with-icon.telephone.focus-state{
+    background-image: url("../img/login/tel_s.svg");
+}
+
+.verification-code{
+    background-image: url("../img/login/code_n.svg");
+}
+
+.with-icon.verification-code.focus-state{
+    background-image: url("../img/login/code_s.svg");
+}
+
+.password-dark{
+    background-image: url("../img/login/password_n.svg");
+}
+
+.with-icon.password-dark.focus-state{
+    background-image: url("../img/login/password_s.svg");
+}
+
+.company{
+    background-image: url("../img/login/company_n.svg");
+}
+
+.with-icon.company.focus-state{
+    background-image: url("../img/login/company_s.svg");
+}
+
+.store{
+    background-image: url("../img/login/store_n.svg");
+}
+
+.with-icon.store.focus-state{
+    background-image: url("../img/login/store_s.svg");
+}
+
+.bg-addorder{
+    background-image: url("../img/bg/bg_addorder@1x.png");
+}
+
+.basic-info-icon{
+    background-image: url("../img/order/information.svg");
+}
+
+.work-info-icon{
+    background-image: url("../img/order/work.svg");
+}
+
+.marry-info-icon {
+    background-image: url("../img/order/marry.svg")
+}
+
+.money-num-icon{
+    background-image: url("../img/profile/money.svg");
+}
+
+.order-num-icon{
+    background-image: url("../img/profile/order.svg");
+}
+
+.tip-bulb-img{
+    background-image: url("../img/profile/tip.svg");
+}
+
+.tool-tip-delete{
+    background-image: url("../img/profile/tip_delete.svg");
+}
